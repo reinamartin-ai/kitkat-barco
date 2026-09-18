@@ -31,15 +31,15 @@ var FICHA = [
   ["Quilla y lastre", "Quilla corrida · 3.500 kg de hierro fundido, encapsulado"]]},
  {g:"Construcción", filas:[
   ["Casco", "Fibra de vidrio (PRFV), reforzado longitudinalmente con largueros de espuma de poliuretano"],
-  ["Cubierta y casilla", "Moldeadas en PRFV. Cubierta forrada en teca"],
+  ["Cubierta y casilla", "Moldeadas en PRFV"],
   ["Unión casco–cubierta", "Pegada y encapsulada, forma la regala"],
   ["Mamparos", "Contrachapado marino, laminados al casco"],
   ["Timón", "Colgado de la quilla. Pala de PRFV con mecha de acero inoxidable"]]},
  {g:"Motor y tanques", filas:[
   ["Motor", "Ford Lehman 4D254 (Ford 2712E), diésel de 4 cilindros, 80 HP. El Endurance 37 original venía con Perkins 4.236M"],
   ["Hélice de proa", "Sleipner SidePower, 12 V, 3 kW"],
-  ["Agua", "1.000 + 198 litros (según la inspección de 2022)"],
-  ["Gasoil", "350 + 190 litros (según la inspección de 2022)"]]},
+  ["Agua", "1.000 + 198 litros"],
+  ["Gasoil", "350 + 190 litros"]]},
  {g:"Velas (inspección 2022)", filas:[
   ["Mayores", "2, en buen estado. La que se usa es roja"],
   ["Genoas / yankee", "2, en buen estado"],
