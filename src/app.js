@@ -21,17 +21,26 @@
      DATOS GUARDADOS EN EL TELÉFONO
      ============================================================ */
   var KEY = "kitkat.barco.v1";
-  function vacio(){ return {v:1, eq:{}, eqx:[], pend:null}; }
+  function vacio(){ return {v:1, eq:{}, eqx:[], pend:null, pendVer:0}; }
   var S = (function(){
     try{ var r = localStorage.getItem(KEY); if(r){ var d = JSON.parse(r); if(d && d.v === 1) return d; } }catch(e){}
     return vacio();
   })();
   if(!Array.isArray(S.eqx)) S.eqx = [];
   if(!S.eq) S.eq = {};
-  if(!Array.isArray(S.pend)){
-    S.pend = PEND_BASE.map(function(p, i){
-      return {id:"b" + i, t:p.t, a:p.a, p:p.p, e:"rev", o:p.o || "", n:p.n || "", c:hoy(), f:""};
+  function base(){
+    return PEND_BASE.map(function(p, i){
+      return {id:"b" + PEND_VER + "-" + i, t:p.t, a:p.a, p:p.p, e:p.e || "rev", o:p.o || "", n:p.n || "", c:hoy(), f:"", base:1};
     });
+  }
+  if(!Array.isArray(S.pend)){ S.pend = base(); S.pendVer = PEND_VER; }
+  else if(S.pendVer !== PEND_VER){
+    /* lista inicial nueva: se quedan los que el usuario anotó o ya tocó; los de base
+       que seguían sin revisar se reemplazan por la lista actual */
+    var queda = S.pend.filter(function(x){ return !(/^b/.test(x.id) && x.e === "rev"); });
+    var titulos = {}; queda.forEach(function(x){ titulos[x.t] = 1; });
+    S.pend = queda.concat(base().filter(function(x){ return !titulos[x.t]; }));
+    S.pendVer = PEND_VER;
   }
   var avisado = false;
   function guardar(){

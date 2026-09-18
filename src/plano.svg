@@ -1,6 +1,6 @@
 <svg viewBox="0 0 600 690" role="img" aria-labelledby="pvT pvD" xmlns="http://www.w3.org/2000/svg">
   <title id="pvT">Plano vélico de Kitkat</title>
-  <desc id="pvD">Perfil de un velero cutter de 11 metros: un solo mástil con la mayor roja, el yankee blanco con banda roja en el estay de proa y la trinquetilla en el estay interior. Casco blanco con franja bordó, casilla con ventanas, arco de popa y quilla con timón separado.</desc>
+  <desc id="pvD">Perfil de un velero cutter de 11 metros: un solo mástil con la mayor roja, el yankee blanco con banda roja en el estay de proa y la trinquetilla en el estay interior. Casco blanco con franja bordó, casilla con ventanas, arco de popa y quilla corrida con el timón colgado de ella.</desc>
   <defs>
     <linearGradient id="pvSky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="var(--card)"/><stop offset="1" stop-color="var(--paper-2)"/>
@@ -65,9 +65,11 @@
   <!-- franja bordó y línea de flotación -->
   <path d="M106 524 Q290 538 505 511 L503 519 Q290 546 108 532 Z" fill="var(--burgundy)"/>
   <path d="M126 555 L456 555 L451 560 L128 560 Z" fill="var(--burgundy)"/>
-  <!-- obra viva: quilla y timón -->
-  <path d="M128 562 L452 562 Q420 572 390 578 L372 614 L244 614 L230 584 Q180 578 128 562 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
-  <path d="M150 566 L184 572 L178 604 L154 600 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- obra viva: quilla corrida con el timón colgado de su borde de popa -->
+  <path d="M170 562 L452 562 Q438 574 420 590 Q404 604 384 612 L196 616 L182 612 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M170 562 L182 612 L196 616 L156 614 Q146 590 150 566 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="186" cy="578" r="5.5" fill="var(--paper-2)" stroke="var(--ink)" stroke-width="1.2"/>
+  <path d="M128 562 Q146 563 170 562" fill="none" stroke="var(--ink)" stroke-width="1.6"/>
   <!-- ojos de buey -->
   <g fill="var(--navy)"><circle cx="386" cy="540" r="3"/><circle cx="404" cy="539" r="3"/><circle cx="422" cy="537" r="3"/></g>
 

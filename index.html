@@ -270,7 +270,7 @@
     <figure class="sailplan" style="margin:0">
       <svg viewBox="0 0 600 690" role="img" aria-labelledby="pvT pvD" xmlns="http://www.w3.org/2000/svg">
   <title id="pvT">Plano vélico de Kitkat</title>
-  <desc id="pvD">Perfil de un velero cutter de 11 metros: un solo mástil con la mayor roja, el yankee blanco con banda roja en el estay de proa y la trinquetilla en el estay interior. Casco blanco con franja bordó, casilla con ventanas, arco de popa y quilla con timón separado.</desc>
+  <desc id="pvD">Perfil de un velero cutter de 11 metros: un solo mástil con la mayor roja, el yankee blanco con banda roja en el estay de proa y la trinquetilla en el estay interior. Casco blanco con franja bordó, casilla con ventanas, arco de popa y quilla corrida con el timón colgado de ella.</desc>
   <defs>
     <linearGradient id="pvSky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="var(--card)"/><stop offset="1" stop-color="var(--paper-2)"/>
@@ -335,9 +335,11 @@
   <!-- franja bordó y línea de flotación -->
   <path d="M106 524 Q290 538 505 511 L503 519 Q290 546 108 532 Z" fill="var(--burgundy)"/>
   <path d="M126 555 L456 555 L451 560 L128 560 Z" fill="var(--burgundy)"/>
-  <!-- obra viva: quilla y timón -->
-  <path d="M128 562 L452 562 Q420 572 390 578 L372 614 L244 614 L230 584 Q180 578 128 562 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
-  <path d="M150 566 L184 572 L178 604 L154 600 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- obra viva: quilla corrida con el timón colgado de su borde de popa -->
+  <path d="M170 562 L452 562 Q438 574 420 590 Q404 604 384 612 L196 616 L182 612 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M170 562 L182 612 L196 616 L156 614 Q146 590 150 566 Z" fill="#7a2f24" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="186" cy="578" r="5.5" fill="var(--paper-2)" stroke="var(--ink)" stroke-width="1.2"/>
+  <path d="M128 562 Q146 563 170 562" fill="none" stroke="var(--ink)" stroke-width="1.6"/>
   <!-- ojos de buey -->
   <g fill="var(--navy)"><circle cx="386" cy="540" r="3"/><circle cx="404" cy="539" r="3"/><circle cx="422" cy="537" r="3"/></g>
 
@@ -366,6 +368,7 @@
         <li><b>Mayor</b><span>Roja</span></li>
         <li><b>A bordo</b><span>Dos mayores, dos genoas, trinquetilla, mayor de capa, tormentín y spinnaker</span></li>
         <li><b>Gobierno</b><span>Rueda, piloto Raymarine Evolution y timón de viento Aries</span></li>
+        <li><b>Quilla</b><span>Corrida, con el timón colgado de su borde de popa</span></li>
       </ul>
     </div>
   </div>
@@ -416,7 +419,7 @@
       <div class="blk"><h3>Casco</h3><p>Fibra de vidrio (mat y roving tejido), reforzada longitudinalmente con largueros de espuma de poliuretano.</p></div>
       <div class="blk"><h3>Cubierta y casilla</h3><p>Moldeadas en fibra de vidrio. La cubierta va forrada en teca.</p></div>
       <div class="blk"><h3>Unión casco–cubierta</h3><p>Pegada y encapsulada: forma una regala firme para apoyarse en la maniobra.</p></div>
-      <div class="blk"><h3>Lastre</h3><p>3.500 kg de hierro fundido, totalmente encapsulado en la quilla.</p></div>
+      <div class="blk"><h3>Quilla y lastre</h3><p>Quilla corrida, con 3.500 kg de hierro fundido totalmente encapsulado.</p></div>
       <div class="blk"><h3>Mamparos</h3><p>Cinco mamparos enteros y tres medios de contrachapado marino, laminados al casco con el barco todavía en el molde.</p></div>
       <div class="blk"><h3>Tanques</h3><p>Gran autonomía: unos 1.200 litros de agua y 540 de gasoil, según la inspección de 2022.</p></div>
       <div class="blk"><h3>Motor</h3><p>Ford Lehman 4D254 de 80 HP, diésel de cuatro cilindros. El original era un Perkins 4.236M.</p></div>
@@ -438,6 +441,7 @@
         <li><b>Otros dueños</b><br>Kitkat navega con bandera de Estados Unidos y puerto en Delaware. Ya entonces llevaba velas rojas.</li>
         <li><b>Octubre de 2022</b><br>Inspección completa en el Riachuelo, Colonia.</li>
         <li><b>Enero de 2023</b><br>Primeras navegadas, la puesta a punto del motor, y el barco a seco para ver el fondo.</li>
+        <li><b>Después</b><br>Kitkat queda a nuevo: jarcia fija y de labor nuevas, mástil pintado, tablero eléctrico con llaves térmicas, piloto automático, AIS, VHF, y la seguridad completa, con balsa revisada, extintores, bengalas y diez chalecos.</li>
       </ol>
     </div>
     <div class="mosaic" data-galeria="historia" style="grid-template-columns:repeat(2,1fr);grid-auto-rows:150px">
@@ -486,7 +490,7 @@
 <section class="view" id="v-pendientes" hidden>
   <div class="head">
     <h2>Pendientes</h2>
-    <p>Lo que hay que arreglar o hacer. Los que dicen <b>A revisar</b> vienen de la inspección de 2022: puede que ya estén hechos. Revisalos y marcá cada uno como pendiente, hecho o descartado.</p>
+    <p>Lo que hay que arreglar o hacer. Los que dicen <b>A revisar</b> vienen de la inspección de 2022 y no sé si ya están resueltos: revisalos y marcá cada uno como pendiente, hecho o descartado.</p>
   </div>
   <div class="tools"><button class="btn primary" type="button" id="pNuevo">+ Nuevo pendiente</button></div>
   <div id="pNuevoBox"></div>
@@ -741,13 +745,13 @@ var FICHA = [
   ["Calado", "1,60 m (5' 3\")"],
   ["Puntal", "1,60 m"],
   ["Desplazamiento", "9,5 toneladas"],
-  ["Lastre", "3.500 kg de hierro fundido, encapsulado en la quilla"]]},
+  ["Quilla y lastre", "Quilla corrida · 3.500 kg de hierro fundido, encapsulado"]]},
  {g:"Construcción", filas:[
   ["Casco", "Fibra de vidrio (PRFV), reforzado longitudinalmente con largueros de espuma de poliuretano"],
   ["Cubierta y casilla", "Moldeadas en PRFV. Cubierta forrada en teca"],
   ["Unión casco–cubierta", "Pegada y encapsulada, forma la regala"],
   ["Mamparos", "Contrachapado marino, laminados al casco"],
-  ["Timón", "Pala de PRFV con mecha de acero inoxidable"]]},
+  ["Timón", "Colgado de la quilla. Pala de PRFV con mecha de acero inoxidable"]]},
  {g:"Motor y tanques", filas:[
   ["Motor", "Ford Lehman 4D254 (Ford 2712E), diésel de 4 cilindros, 80 HP. El Endurance 37 original venía con Perkins 4.236M"],
   ["Hélice de proa", "Sleipner SidePower, 12 V, 3 kW"],
@@ -776,7 +780,7 @@ var EQUIPOS = [
           "Piloto automático -20260918T172706Z-1-001/Piloto automático/Mechanical Linear Drive (M81130, M81131, M81132, M81133, M81134) Installation instructions 81175-8-EN.pdf"]},
  {id:"radar", g:"Navegación y electrónica", t:"Radar", m:"Raytheon R20", e:"ret", n:"Funcionaba en 2022. Fuera de uso."},
  {id:"hf", g:"Navegación y electrónica", t:"Radio de HF", m:"Icom IC-M802", e:"no", n:"No funciona."},
- {id:"vhf", g:"Navegación y electrónica", t:"VHF", m:"", e:"rev", n:"En 2022 no se logró contacto con Prefectura de Colonia, aunque parecía funcionar."},
+ {id:"vhf", g:"Navegación y electrónica", t:"VHF", m:"Nuevo (marca: completar)", e:"ok", n:"Anda muy bien."},
  {id:"gps", g:"Navegación y electrónica", t:"GPS", m:"Garmin 126", e:"rev", n:"Sin antena en 2022."},
  {id:"sonda", g:"Navegación y electrónica", t:"Ecosonda", m:"Nasa Marine, con sensor portátil", e:"ok", n:"El informe sugiere instalar un sensor fijo."},
  {id:"viento", g:"Navegación y electrónica", t:"Sensor de viento", m:"", e:"no", n:"No tiene (2022)."},
@@ -784,11 +788,11 @@ var EQUIPOS = [
   manual:["Piloto de viento Aries.pdf","Piloto de viento Aries_ Guía de mantenimiento, ajuste y solución de problemas.pdf"]},
  {id:"furlex", g:"Maniobra y gobierno", t:"Enrollador del yankee", m:"Seldén Furlex S300", e:"ok", n:"En buen estado en 2022, pide mantenimiento.",
   manual:["Salden furlex s300.pdf","Salden Furlex S300 partes 595-105-E (1).pdf"]},
- {id:"palo", g:"Maniobra y gobierno", t:"Mástil, botavara y tangón", m:"Seldén", e:"prob", n:"Sin daños, pero la pintura del aluminio está muy deteriorada, sobre todo en el mástil.",
+ {id:"palo", g:"Maniobra y gobierno", t:"Mástil, botavara y tangón", m:"Seldén", e:"ok", n:"Pintura nueva.",
   manual:["Salden jarcia botavara.pdf"]},
- {id:"jfija", g:"Maniobra y gobierno", t:"Jarcia fija", m:"", e:"ok", n:"En buen estado en 2022. Sin fecha de fabricación conocida."},
- {id:"jmovil", g:"Maniobra y gobierno", t:"Jarcia de labor", m:"", e:"prob", n:"Muy afectada por el sol: el informe sugiere cambiar el 80 %."},
- {id:"winches", g:"Maniobra y gobierno", t:"Molinetes", m:"", e:"prob", n:"Piden mantenimiento."},
+ {id:"jfija", g:"Maniobra y gobierno", t:"Jarcia fija", m:"", e:"ok", n:"Nueva."},
+ {id:"jmovil", g:"Maniobra y gobierno", t:"Jarcia de labor", m:"", e:"ok", n:"Nueva."},
+ {id:"winches", g:"Maniobra y gobierno", t:"Molinetes", m:"", e:"ok", n:"Funcionan todos."},
  {id:"molinete", g:"Maniobra y gobierno", t:"Molinete del ancla", m:"Manual", e:"ok", n:"Tres anclas en buen estado."},
  {id:"thruster", g:"Maniobra y gobierno", t:"Hélice de proa", m:"Sleipner SidePower, 12 V, 3 kW", e:"ok", n:"Funciona. Revisar la unidad en varadero.",
   manual:["Bow thruster.pdf","Bow trhuster 2.pdf"]},
@@ -796,23 +800,23 @@ var EQUIPOS = [
  {id:"solar", g:"Energía y electricidad", t:"Paneles solares y regulador", m:"Regulador PWM MUST", e:"ok", n:"", manual:["MANUAL-REGULADOR-PWM10-20-30-MUST.pdf"]},
  {id:"eolico", g:"Energía y electricidad", t:"Generador eólico", m:"", e:"rev", n:"No se pudo probar en 2022."},
  {id:"inverter", g:"Energía y electricidad", t:"Inversor", m:"4.000 W", e:"ok", n:""},
- {id:"baterias", g:"Energía y electricidad", t:"Baterías", m:"", e:"rev", n:"El informe sugiere cambiarlas y aumentar la capacidad."},
- {id:"tablero", g:"Energía y electricidad", t:"Tablero eléctrico", m:"Con fusibles", e:"ok", n:"Funciona. Conviene pasarlo a llaves térmicas."},
+ {id:"baterias", g:"Energía y electricidad", t:"Baterías", m:"", e:"ok", n:""},
+ {id:"tablero", g:"Energía y electricidad", t:"Tablero eléctrico", m:"Nuevo, con llaves térmicas", e:"ok", n:""},
  {id:"calefon", g:"Confort", t:"Calefón", m:"Albinus", e:"ok", n:"", manual:["Calefon Albinus.pdf"]},
  {id:"calefactor", g:"Confort", t:"Calefactor", m:"Tipo Webasto", e:"ok", n:"Funciona. El informe sugiere una instalación más completa."},
- {id:"heladera", g:"Confort", t:"Heladera", m:"", e:"no", n:"No arrancaba en 2022."},
+ {id:"heladera", g:"Confort", t:"Heladera", m:"", e:"ok", n:"Funciona perfectamente."},
  {id:"cocina", g:"Confort", t:"Cocina y horno", m:"", e:"ok", n:""},
  {id:"agua", g:"Confort", t:"Agua a presión y bombas", m:"", e:"ok", n:""},
- {id:"dingui", g:"Confort", t:"Dingui", m:"Fibra de vidrio", e:"ok", n:""},
- {id:"balsa", g:"Seguridad", t:"Balsa salvavidas", m:"", e:"no", n:"Vencida en 2022; puede que no acepte recertificación."},
+ {id:"dingui", g:"Confort", t:"Dingui", m:"Gomón", e:"ok", n:""},
+ {id:"balsa", g:"Seguridad", t:"Balsa salvavidas", m:"", e:"ok", n:"Revisada."},
  {id:"epirb", g:"Seguridad", t:"EPIRB", m:"", e:"prob", n:"Sin certificado y posiblemente con el MMSI equivocado."},
- {id:"ais", g:"Seguridad", t:"AIS", m:"", e:"no", n:"No tiene."},
- {id:"extintores", g:"Seguridad", t:"Extintores", m:"5", e:"prob", n:"Sin certificación en 2022."},
- {id:"bengalas", g:"Seguridad", t:"Bengalas", m:"", e:"no", n:"Vencidas en 2022."},
- {id:"salvavidas", g:"Seguridad", t:"Chalecos salvavidas", m:"2 con arnés", e:"prob", n:"No alcanzan para la norma de Prefectura."},
- {id:"achique", g:"Seguridad", t:"Bombas de achique", m:"1 eléctrica y 2 manuales", e:"ok", n:""},
- {id:"motor", g:"Motor", t:"Motor", m:"Ford Lehman 4D254, 80 HP", e:"prob", n:"Ver la app del motor. En 2022: amperímetro sin funcionar y ruido en el burro de arranque."},
- {id:"caja", g:"Motor", t:"Caja", m:"", e:"prob", n:"En 2022 el aceite estaba emulsionado: posible entrada de agua por el enfriador."}
+ {id:"ais", g:"Seguridad", t:"AIS", m:"ONWA", e:"ok", n:"Nuevo."},
+ {id:"extintores", g:"Seguridad", t:"Extintores", m:"", e:"ok", n:"Nuevos."},
+ {id:"bengalas", g:"Seguridad", t:"Bengalas", m:"", e:"ok", n:"Nuevas, vencen en 2028."},
+ {id:"salvavidas", g:"Seguridad", t:"Chalecos salvavidas", m:"10", e:"ok", n:"En excelente estado."},
+ {id:"achique", g:"Seguridad", t:"Bombas de achique", m:"2 eléctricas y 2 manuales", e:"ok", n:"Funcionan todas."},
+ {id:"motor", g:"Motor", t:"Motor", m:"Ford Lehman 4D254, 80 HP", e:"prob", n:"Todo bien, salvo el problema actual: sube el nivel del refrigerante (entrada de agua salada). Diagnóstico en la app del motor."},
+ {id:"caja", g:"Motor", t:"Caja", m:"", e:"ok", n:""}
 ];
 var ESTADOS = {ok:"Funciona", prob:"Con problemas", no:"No funciona", ret:"Retirado", rev:"A revisar"};
 
@@ -820,38 +824,28 @@ var ESTADOS = {ok:"Funciona", prob:"Con problemas", no:"No funciona", ret:"Retir
    Salen del informe de 2022 y de la constancia. Arrancan en "A revisar":
    puede que ya estén hechos. p: 1 urgente · 2 importante · 3 normal · 4 algún día */
 var AREAS = ["Seguridad","Documentación","Casco","Cubierta","Jarcia y velas","Motor","Electricidad","Interior","Otro"];
+/* versión de la lista inicial: si cambia, la página reemplaza los pendientes de base
+   que el usuario no tocó (los que siguen en "A revisar") por los de esta lista */
+var PEND_VER = 2;
 var PEND_BASE = [
+ {t:"Entra agua salada al refrigerante: seguir el diagnóstico", a:"Motor", p:1, o:"", e:"pend", n:"Ver Entender → Diagnóstico en la app del motor."},
  {t:"Renovar la constancia de seguridad (vencía el 04/01/2025)", a:"Documentación", p:1, o:"Constancia 049/2023"},
- {t:"Bengalas nuevas", a:"Seguridad", p:1, o:"Informe 2022"},
- {t:"Recertificar los extintores", a:"Seguridad", p:1, o:"Informe 2022"},
- {t:"Balsa salvavidas: recertificar o reemplazar", a:"Seguridad", p:1, o:"Informe 2022"},
+ {t:"Anotar la marca y el modelo del VHF nuevo", a:"Otro", p:4, o:"", e:"pend"},
  {t:"EPIRB: certificar y corregir el MMSI", a:"Seguridad", p:2, o:"Informe 2022"},
- {t:"Completar chalecos salvavidas según la norma de Prefectura", a:"Seguridad", p:1, o:"Informe 2022"},
- {t:"Instalar AIS", a:"Seguridad", p:2, o:"Informe 2022"},
  {t:"Botiquín, cartas, elementos de derrota, linternas, cizalla y sondaleza", a:"Seguridad", p:2, o:"Informe 2022"},
- {t:"Aceite de la caja emulsionado: revisar el enfriador de la caja", a:"Motor", p:1, o:"Informe 2022", n:"Ver el diagnóstico en la app del motor."},
- {t:"Revisar el burro de arranque (ruido anormal)", a:"Motor", p:3, o:"Informe 2022"},
- {t:"Arreglar el amperímetro del tablero del motor", a:"Motor", p:3, o:"Informe 2022"},
- {t:"Prensaestopas muy apretado: regular", a:"Motor", p:2, o:"Informe 2022"},
- {t:"Limpiar los tanques de agua y gasoil", a:"Motor", p:3, o:"Informe 2022"},
- {t:"Toma de fondo engripada: mantenimiento o cambio", a:"Casco", p:1, o:"Informe 2022"},
+ {t:"Toma de fondo engripada: mantenimiento o cambio", a:"Casco", p:2, o:"Informe 2022"},
  {t:"Varada: revisar ampollas (ósmosis), hélice, ánodo y bujes del timón", a:"Casco", p:2, o:"Informe 2022"},
- {t:"Pintura de fondo y barrera osmótica", a:"Casco", p:2, o:"Informe 2022"},
+ {t:"Pintura de fondo y barrera osmótica", a:"Casco", p:3, o:"Informe 2022"},
  {t:"Pintura de obra muerta y línea de flotación", a:"Casco", p:4, o:"Informe 2022"},
  {t:"Antideslizante de cubierta: pintar o cambiar las gomas", a:"Cubierta", p:3, o:"Informe 2022"},
  {t:"Tambuchos: burletes nuevos y reforzar la fibra", a:"Cubierta", p:3, o:"Informe 2022"},
  {t:"Reforzar el arco de popa", a:"Cubierta", p:3, o:"Informe 2022"},
  {t:"Herraje de la trinquetilla: cambiar remaches o sumar fijación", a:"Jarcia y velas", p:2, o:"Informe 2022"},
- {t:"Cambiar la jarcia de labor (80 %)", a:"Jarcia y velas", p:2, o:"Informe 2022"},
- {t:"Pintar mástil y botavara", a:"Jarcia y velas", p:3, o:"Informe 2022"},
- {t:"Revisar la instalación eléctrica del mástil", a:"Jarcia y velas", p:3, o:"Informe 2022"},
- {t:"Mantenimiento del Furlex y de los molinetes", a:"Jarcia y velas", p:3, o:"Informe 2022"},
  {t:"Armar y probar el timón de viento Aries", a:"Jarcia y velas", p:4, o:"Informe 2022"},
- {t:"Tablero a llaves térmicas", a:"Electricidad", p:3, o:"Informe 2022"},
- {t:"Baterías nuevas y más capacidad", a:"Electricidad", p:3, o:"Informe 2022"},
+ {t:"Prensaestopas muy apretado: regular", a:"Motor", p:3, o:"Informe 2022"},
+ {t:"Limpiar los tanques de agua y gasoil", a:"Motor", p:3, o:"Informe 2022"},
  {t:"Probar el generador eólico", a:"Electricidad", p:4, o:"Informe 2022"},
  {t:"Unificar las luces a LED", a:"Electricidad", p:4, o:"Informe 2022"},
- {t:"Heladera que no arranca", a:"Interior", p:3, o:"Informe 2022"},
  {t:"Barnices del interior", a:"Interior", p:4, o:"Informe 2022"},
  {t:"Limpiar las sentinas", a:"Interior", p:3, o:"Informe 2022"},
  {t:"Burletes de los ojos de buey y trabas de puertas", a:"Interior", p:4, o:"Informe 2022"},
@@ -885,17 +879,26 @@ var ESTADOS_P = {rev:"A revisar", pend:"Pendiente", curso:"En curso", hecho:"Hec
      DATOS GUARDADOS EN EL TELÉFONO
      ============================================================ */
   var KEY = "kitkat.barco.v1";
-  function vacio(){ return {v:1, eq:{}, eqx:[], pend:null}; }
+  function vacio(){ return {v:1, eq:{}, eqx:[], pend:null, pendVer:0}; }
   var S = (function(){
     try{ var r = localStorage.getItem(KEY); if(r){ var d = JSON.parse(r); if(d && d.v === 1) return d; } }catch(e){}
     return vacio();
   })();
   if(!Array.isArray(S.eqx)) S.eqx = [];
   if(!S.eq) S.eq = {};
-  if(!Array.isArray(S.pend)){
-    S.pend = PEND_BASE.map(function(p, i){
-      return {id:"b" + i, t:p.t, a:p.a, p:p.p, e:"rev", o:p.o || "", n:p.n || "", c:hoy(), f:""};
+  function base(){
+    return PEND_BASE.map(function(p, i){
+      return {id:"b" + PEND_VER + "-" + i, t:p.t, a:p.a, p:p.p, e:p.e || "rev", o:p.o || "", n:p.n || "", c:hoy(), f:"", base:1};
     });
+  }
+  if(!Array.isArray(S.pend)){ S.pend = base(); S.pendVer = PEND_VER; }
+  else if(S.pendVer !== PEND_VER){
+    /* lista inicial nueva: se quedan los que el usuario anotó o ya tocó; los de base
+       que seguían sin revisar se reemplazan por la lista actual */
+    var queda = S.pend.filter(function(x){ return !(/^b/.test(x.id) && x.e === "rev"); });
+    var titulos = {}; queda.forEach(function(x){ titulos[x.t] = 1; });
+    S.pend = queda.concat(base().filter(function(x){ return !titulos[x.t]; }));
+    S.pendVer = PEND_VER;
   }
   var avisado = false;
   function guardar(){
