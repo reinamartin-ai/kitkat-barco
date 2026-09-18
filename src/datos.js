@@ -55,9 +55,9 @@ var CONSTANCIA = {num:"049/2023", otorgada:"2023-01-19", vence:"2025-01-04"};
    manual: archivos dentro de "General/Equipos" (solo se abren en la copia de la compu) */
 var GRUPOS = ["Navegación y electrónica","Maniobra y gobierno","Energía y electricidad","Confort","Seguridad","Motor"];
 var EQUIPOS = [
- {id:"plotter", g:"Navegación y electrónica", t:"Plotter", m:"ONWA", e:"ok", n:"", manual:["ONWA Chartplotter manual_OME-200725.pdf"]},
+ {id:"plotter", g:"Navegación y electrónica", t:"Plotter", m:"ONWA", e:"ok", n:"Instalado y funcionando.", manual:["ONWA Chartplotter manual_OME-200725.pdf"]},
  {id:"piloto", g:"Navegación y electrónica", t:"Piloto automático", m:"Raymarine Evolution EV-100 con control p70 y actuador lineal mecánico tipo 1", e:"ok",
-  n:"Reemplaza al piloto NECO que figura en el informe de 2022 (confirmar).",
+  n:"Reemplazó al piloto NECO.",
   manual:["Piloto automático -20260918T172706Z-1-001/Piloto automático/RAY_Evolution EV100, ACUx_ESP.pdf",
           "Piloto automático -20260918T172706Z-1-001/Piloto automático/p70 e p70R Instrucciones de instalación y manejo 81355-1-ES.pdf",
           "Piloto automático -20260918T172706Z-1-001/Piloto automático/Mechanical Linear Drive (M81130, M81131, M81132, M81133, M81134) Installation instructions 81175-8-EN.pdf"]},
