@@ -39,10 +39,10 @@ FOTOS = {
  "fondeado":     (RB + "20230114_135208.jpg", 1500, "Fondeado"),
  # a bordo
  "salon":        ("Fotos/salon 2.jpeg", 1400, "El salón de cubierta"),
- "navegacion":   (F + "Varios/PHOTO-2022-10-25-11-12-05(2).jpg", 1400, "Mesa de navegación y tablero"),
+ "navegacion":   (F + "Varios/PHOTO-2022-10-25-11-12-05(2).jpg", 1400, "El tablero"),
  "cocina":       (F + "Varios/PHOTO-2022-10-25-11-12-05(4).jpg", 1400, "La cocina"),
  "dinette":      ("Fotos/salon 4.jpg", 1400, "La dinette"),
- "camarote":     (F + "Varios/PHOTO-2022-10-25-11-40-30.jpg", 1400, "Camarote de proa"),
+ "camarote":     (F + "Varios/PHOTO-2022-10-25-11-40-30.jpg", 1400, "Camarote de estribor"),
  "bano":         ("Fotos/baño.jpg", 1200, "El baño"),
  "cubierta":     (F + "Inspección inicial/WhatsApp Image 2022-12-22 at 14.34.38 (2).jpeg", 1400, "La cubierta hacia proa"),
  # en seco

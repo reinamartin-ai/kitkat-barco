@@ -100,7 +100,7 @@ var FOTOS = {
   "src": "fotos/navegacion.jpg",
   "w": 1024,
   "h": 768,
-  "t": "Mesa de navegación y tablero"
+  "t": "El tablero"
  },
  "cocina": {
   "src": "fotos/cocina.jpg",
@@ -118,7 +118,7 @@ var FOTOS = {
   "src": "fotos/camarote.jpg",
   "w": 768,
   "h": 1024,
-  "t": "Camarote de proa"
+  "t": "Camarote de estribor"
  },
  "bano": {
   "src": "fotos/bano.jpg",
