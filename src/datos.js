@@ -28,7 +28,7 @@ var FICHA = [
   ["Calado", "1,80 m hoy, con todo el peso a bordo (1,60 m / 5' 3\" según el folleto)"],
   ["Puntal", "1,60 m"],
   ["Desplazamiento", "9,5 toneladas"],
-  ["Quilla y lastre", "Quilla corrida · 3.500 kg de hierro fundido, encapsulado"]]},
+  ["Quilla y lastre", "Quilla corrida · 3.500 kg de lingotes de plomo, encapsulados"]]},
  {g:"Construcción", filas:[
   ["Casco", "Fibra de vidrio (PRFV), reforzado longitudinalmente con largueros de espuma de poliuretano"],
   ["Cubierta y cabina", "Moldeadas en PRFV"],
