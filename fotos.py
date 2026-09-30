@@ -30,7 +30,7 @@ FOTOS = {
  "nav-botavara": (RB + "20230114_054432.jpg", 1500, "La botavara y el sol que sale"),
  "nav-ocaso":    (RB + "98674839-55f9-4de7-aa8d-9dcdabdf62b8.JPG", 1500, "Cae el sol sobre el Río de la Plata"),
  "nav-costado":  (RB + "Copia de IMG_0264.HEIC", 1500, "Por la banda, a la puesta"),
- "nav-casa":     (RB + "Copia de IMG_0269.HEIC", 1500, "La casilla con la última luz"),
+ "nav-casa":     (RB + "Copia de IMG_0269.HEIC", 1500, "La cabina con la última luz"),
  "nav-cubierta": (RB + "1bd28468-d2fb-4e3e-8808-11fab378a7a7.JPG", 1500, "Cubierta al atardecer"),
  "nav-proa":     (RB + "20230114_134804.jpg", 1600, "La proa y la ciudad"),
  # en el agua

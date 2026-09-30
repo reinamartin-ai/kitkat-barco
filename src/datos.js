@@ -31,7 +31,7 @@ var FICHA = [
   ["Quilla y lastre", "Quilla corrida · 3.500 kg de hierro fundido, encapsulado"]]},
  {g:"Construcción", filas:[
   ["Casco", "Fibra de vidrio (PRFV), reforzado longitudinalmente con largueros de espuma de poliuretano"],
-  ["Cubierta y casilla", "Moldeadas en PRFV"],
+  ["Cubierta y cabina", "Moldeadas en PRFV"],
   ["Unión casco–cubierta", "Pegada y encapsulada, forma la regala"],
   ["Mamparos", "Contrachapado marino, laminados al casco"],
   ["Timón", "Colgado de la quilla. Pala de PRFV con mecha de acero inoxidable"]]},

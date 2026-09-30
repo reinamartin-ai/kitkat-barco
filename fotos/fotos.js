@@ -58,7 +58,7 @@ var FOTOS = {
   "src": "fotos/nav-casa.jpg",
   "w": 1500,
   "h": 1125,
-  "t": "La casilla con la última luz"
+  "t": "La cabina con la última luz"
  },
  "nav-cubierta": {
   "src": "fotos/nav-cubierta.jpg",
