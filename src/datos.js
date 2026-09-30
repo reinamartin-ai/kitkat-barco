@@ -25,7 +25,7 @@ var FICHA = [
   ["Eslora total", "11,25 m (36' 11\") según el folleto · 11,35 m en la constancia"],
   ["Eslora de flotación", "8,40 m (26' 7\")"],
   ["Manga", "3,50 m (11' 6\") · 3,45 m en la constancia"],
-  ["Calado", "1,60 m (5' 3\")"],
+  ["Calado", "1,80 m hoy, con todo el peso a bordo (1,60 m / 5' 3\" según el folleto)"],
   ["Puntal", "1,60 m"],
   ["Desplazamiento", "9,5 toneladas"],
   ["Quilla y lastre", "Quilla corrida · 3.500 kg de hierro fundido, encapsulado"]]},
