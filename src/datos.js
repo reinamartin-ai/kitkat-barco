@@ -36,7 +36,7 @@ var FICHA = [
   ["Mamparos", "Contrachapado marino, laminados al casco"],
   ["Timón", "Colgado de la quilla. Pala de PRFV con mecha de acero inoxidable"]]},
  {g:"Motor y tanques", filas:[
-  ["Motor", "Ford Lehman 4D254 (Ford 2712E), diésel de 4 cilindros, 80 HP. El Endurance 37 original venía con Perkins 4.236M"],
+  ["Motor", "Ford Lehman 4D254 (Ford 2712E), diésel de 4 cilindros, 80 HP. El mismo desde el principio"],
   ["Hélice de proa", "Sleipner SidePower, 12 V, 3 kW"],
   ["Agua", "1.000 + 198 litros"],
   ["Gasoil", "350 + 190 litros"]]},
